@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+    <test name="test12">
+        <classes>
+            <class name="interfaceTestCase.BingQiongUserCenter" >
+            	<methods>
+            		<include name="getCode"></include>
+            		<include name="registerConfirm"></include>
+            		<include name="login"></include>
+            		<include name="getByToken"></include>
+            		<include name="getResetCode"></include>
+            		<include name="verifyCode"></include>
+            		<include name="resetPassword"></include>
+            		<include name="modifyPassword"></include>
+            	</methods>            
+            </class>            
+        </classes>
+    </test>
+</suite>
